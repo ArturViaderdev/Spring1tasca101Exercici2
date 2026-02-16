@@ -27,4 +27,14 @@ public class Car {
     {
         return power;
     }
+
+    public static void brake()
+    {
+        System.out.println("El vehicle està frenant.");
+    }
+
+    public void accelerate()
+    {
+        System.out.println("El vehicle està accelerant.");
+    }
 }

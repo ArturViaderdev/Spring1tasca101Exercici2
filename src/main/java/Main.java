@@ -12,5 +12,9 @@ public class Main {
         System.out.println("Model car 2 - " + secondcar.getModel());
 
         System.out.println("Les variables static afecten a totes les instàncies de la classe.");
+
+        Car.brake();
+        car.accelerate();
+
     }
 }
